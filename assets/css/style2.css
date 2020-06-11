@@ -1,0 +1,302 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.section-a{
+   background-image: linear-gradient(to right ,rgba(2, 2, 2, 0.322), rgba(2, 2, 2, 0.315)), url(https://23u0pr24qn4zn4d4qinlmyh8-wpengine.netdna-ssl.com/wp-content/uploads/2016/07/doctor3_original_55272.jpg);
+  display: block;
+   width: 100%;
+   height: 90vh;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.modules{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.signup{
+   /* background-color: #fff;*/
+    height: fit-content;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    margin-left: 5rem;
+    margin-right: 6rem;
+}
+input[type = text]{
+    margin-top: 2rem;
+    padding: 0.5rem 2rem;
+}
+input[type = text]:focus{
+    outline: none;
+    color: rgba(30, 84, 233, 0.972);
+}
+
+input[type = email]{
+    margin-top: 1rem;
+   
+    padding: 0.5rem 2rem;
+}
+input[type = email]:focus{
+    outline: none;
+    color: rgba(30, 84, 233, 0.972);
+}
+
+input[type = tel]{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 2rem;
+}
+input[type = tel]:focus{
+    outline: none;
+    color: rgba(30, 84, 233, 0.972);
+}
+.btn{
+    margin-top: .5rem;
+    background-color:rgba(29, 129, 223, 0.945);
+    padding: .5rem 2rem;
+    color: #fff;
+}
+/*Mobile Phones*/
+@media(min-width: 320px){
+    .section-a{
+        height: 100vh;
+    }
+    .hero-content{
+        padding: 0px;
+    }
+    .hero-content h1{ 
+      padding-top: 15rem;
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+       
+    }
+    .hero-content p{
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 2rem;
+       
+    }
+    .hero-content a{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left:5rem;
+        padding: 1rem 2rem;
+    }
+    .features{
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .card{
+        margin-top: 1rem;
+        width: 350px;
+    }
+    .card p{
+        font-size: 1.2rem;
+    }
+    .card a{
+        font-size: 1.3rem;
+    }
+}
+/*iPads*/
+@media(min-width: 768px){
+    .signup{
+        /* background-color: #fff;*/
+         height: fit-content;
+         width: 350px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin-top: 13rem;
+         margin-left: 14rem;
+         margin-right: 14rem;
+     }
+     
+input[type = text]{
+    margin-top: 2rem;
+    padding: 1rem 4rem;
+    font-size: 1.5rem;
+}
+input[type = text]:focus{
+    outline: none;
+    color: rgba(30, 84, 233, 0.972);
+}
+
+input[type = email]{
+    margin-top: 1rem;
+    padding: 1rem 4rem;
+    font-size: 1.5rem;
+}
+input[type = email]:focus{
+    outline: none;
+    color: rgba(30, 84, 233, 0.972);
+}
+
+input[type = tel]{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem 4rem;
+    font-size: 1.5rem;
+}
+input[type = tel]:focus{
+    outline: none;
+    color: rgba(30, 84, 233, 0.972);
+}
+textarea{
+    outline: none;
+    padding-right: 3rem;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    color: rgba(30, 84, 233, 0.972);
+}
+.btn{
+    margin-top: .5rem;
+    background-color:rgba(29, 129, 223, 0.945);
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    color: #fff;
+}
+    .hero-content h1{ 
+        padding-top: 15rem;
+        text-align: center;
+        font-size: 4rem;
+        margin-bottom: 2rem;
+         
+      }
+      .hero-content p{
+        font-size: 2rem;
+        margin-bottom: 4rem;
+        text-align: center;
+    }
+    .hero-content a{
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        margin-left:12rem;
+        margin-right: auto;
+        font-size: 2rem;
+        padding: 2rem 4rem;
+    }
+    .card{
+        margin-top: 1rem;
+        width: 670px;
+    }
+    .card p{
+        font-size: 2rem;
+    }
+    .card h1{
+        font-size: 3rem;
+    }
+    .card a{
+        font-size: 2rem;
+    }
+    .icon {
+        font-size: 64px;
+    }
+    .svg{
+        font-size: 100px;
+    }
+}
+/*iPad Pro*/
+@media(min-width: 1024px){
+    .signup{
+        /* background-color: #fff;*/
+         height: fit-content;
+         width: 350px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin-top: 13rem;
+         margin-left: 16rem;
+         margin-right: 14rem;
+     }
+    .hero-content h1{ 
+        padding-top: 35rem;
+        text-align: center;
+        font-size: 5.8rem;
+        margin-bottom: 2rem;
+         
+      }
+      .hero-content p{
+        font-size: 2.5rem;
+        margin-bottom: 4rem;
+        text-align: center;
+    }
+    .hero-content a{
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        margin-left:18rem;
+        margin-right: auto;
+        font-size: 2rem;
+        padding: 2rem 4rem;
+    }
+    .card{
+        margin-top: 1rem;
+        width: 770px;
+    }
+    .card a{
+        font-size: 3rem;
+    }
+}
+@media(min-width: 1280px){
+    .signup{
+        /* background-color: #fff;*/
+         height: fit-content;
+         width: 350px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin-top: 3rem;
+         margin-left: 25rem;
+         margin-right: 14rem;
+     }
+    .hero-content h1{ 
+        padding-top: 18rem;
+        text-align: center;
+        font-size: 4rem;
+        margin-bottom: 2rem;
+      }
+      .hero-content p{
+        font-size: 1.8rem;
+        margin-bottom: 4rem;
+        text-align: center;
+    }
+    .hero-content a{
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        margin-left:33rem;
+        margin-right: auto;
+        font-size: 1.5rem;
+        padding: 1rem 3rem;
+    }
+    .features{
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        height: auto;
+        margin-left: 2rem;
+        width: fit-content;
+    }
+    .card h1{
+        font-size: 1.5rem;
+    }
+    .card p{
+        font-size: 1.2rem;
+    }
+    .card a{
+        font-size: 1.2rem;
+    }
+}
